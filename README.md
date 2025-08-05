@@ -36,9 +36,18 @@ The game tracks how many attempts you take to guess correctly and encourages you
 
 ---
 
-## 🧑‍💻 How to Run
+## 🧑‍💻 **How to Run**
 
-1. **Clone the repo** or copy the code to your system.
-2. **Compile the program** using a C++ compiler like g++:
+1. **Clone the repo** or copy the code to your local system.  
+2. **Compile the program** using any C++ compiler like `g++`:
+
    ```bash
    g++ numberguess.cpp -o numberguess
+
+##   Run the program:
+./numberguess
+
+## 📌 Note
+This is a console-based game, so no GUI will appear. It's meant for terminal/command-line execution only.
+
+## Feel free to fork, enhance, or contribute!
