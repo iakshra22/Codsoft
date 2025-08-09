@@ -18,7 +18,7 @@ void displayWelcomeMessage(){
 
 int GetUserGuess(){
 	int guess;
-	while (true){ // corrected spelling: 'ture' ? 'true'
+	while (true){
 		cout << "Enter your guess (1-100): ";
 		cin >> guess;
 
@@ -34,13 +34,13 @@ int GetUserGuess(){
 
 bool AskToPlayAgain(){
 	char choice;
-	cout << "Would you like to play this interesting game again? Please select 'Y' for YES and 'N' for NO:\n"; // fixed: proper quotes
+	cout << "Would you like to play this interesting game again? Please select 'Y' for YES and 'N' for NO:\n"; 
 	cin >> choice;
 	return tolower(choice) == 'y';
 }
 
 void PlayGame(){
-	srand(static_cast<unsigned int>(time(0))); // this is fine here if single play, though ideally in main
+	srand(static_cast<unsigned int>(time(0))); 
 	int secretNumber = rand() % 100 + 1;
 	int attempts = 0;
 	int guess;
@@ -48,7 +48,7 @@ void PlayGame(){
 	cout << "\nI have chosen the number. Start guessing!\n";
 
 	while (true){
-		guess = GetUserGuess(); // fixed: matched function name casing
+		guess = GetUserGuess(); 
 		attempts++;
 
 		if (guess > secretNumber){
