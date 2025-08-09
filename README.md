@@ -6,7 +6,7 @@ Welcome to the **Number Guessing Game** – a simple, fun, and interactive conso
 
 ## 📌 About the Game
 
-This game picks a random number between **1 and 100**, and your task is to guess it!  
+This game picks a random number between **1 and 100**, and your task is to guess it right!  
 After each guess, you'll get helpful hints like:
 
 - **Too High**  → Try a smaller number  
