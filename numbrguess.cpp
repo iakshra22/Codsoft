@@ -7,13 +7,13 @@
 using namespace std;
 
 void displayWelcomeMessage(){
-	cout<<"HI, HOPE YOU'RE DOING WELL....WELCOME TO NUMBER GUESSING GAME \n";
+	cout<<"HI, WELCOME TO NUMBER GUESSING GAME \n";
     cout<<"===============================\n";
     cout<<"I have picked a random number between 1 and 100.\n";
     cout<<"\n";
-    cout<<"You have to guess it! I also guide you.\n";
+    cout<<"You have to guess it!\n";
     cout<<"\n";
-    cout<<"Good luck, Wishing you all the very best\n";
+    cout<<"Good luck !\n";
 }
 
 int GetUserGuess(){
@@ -71,5 +71,6 @@ int main(){
 
 	cout << "Thanks for Playing! I love it...See you next time. BYE!\n";
 }
+
 
 
