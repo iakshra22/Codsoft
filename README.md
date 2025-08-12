@@ -10,7 +10,7 @@ This game picks a random number between **1 and 100**, and your task is to guess
 After each guess, you'll get helpful hints like:
 
 - **Too High**  → Try a smaller number  
-- **Too Low** → Try a bigger number  
+- **Too Low** → Try a bigger number 
 
 The game tracks how many attempts you take to guess correctly and encourages you to play again!
 
