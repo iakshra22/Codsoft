@@ -14,7 +14,7 @@ void displayWelcomeMessage(){
     cout<<"You have to guess it!\n";
     cout<<"\n";
     cout<<"Good luck !\n";
-}
+} 
 
 int GetUserGuess(){
 	int guess;
