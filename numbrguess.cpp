@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void displayWelcomeMessage(){
+void displayWelcomeMessage(){ 
 	cout<<"HI, WELCOME TO NUMBER GUESSING GAME \n";
     cout<<"===============================\n";
     cout<<"I have picked a random number between 1 and 100.\n";
@@ -71,6 +71,7 @@ int main(){
 
 	cout << "Thanks for Playing! I love it...See you next time. BYE!\n";
 }
+
 
 
 
