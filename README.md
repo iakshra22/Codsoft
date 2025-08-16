@@ -56,7 +56,7 @@ This is a console-based game, so no GUI will appear. It's meant for terminal/com
 
 
 /*
-# 🧮 Advanced Calculator in C++
+# 2. 🧮 Advanced Calculator in C++
 
 ## 📌 About
 This is a **menu-driven advanced calculator** program written in C++.  
