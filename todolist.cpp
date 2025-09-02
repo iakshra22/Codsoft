@@ -14,14 +14,12 @@ struct Task {
     }
 };
 
-// Function Declarations
 void addTask(vector<Task> &tasks);
 void viewTasks(const vector<Task> &tasks);
 void markTaskCompleted(vector<Task> &tasks);
 void removeTask(vector<Task> &tasks);
 
 
-// Add a new task
 void addTask(vector<Task> &tasks) {
     string desc;
     cout << "Enter your Task Name or details of the Task: ";
@@ -30,7 +28,6 @@ void addTask(vector<Task> &tasks) {
     cout << "Thankyou for adding task!\n";
 }
 
-// View all tasks
 void viewTasks(const vector<Task> &tasks) {
     if (tasks.empty()) {
         cout << "No tasks in the list. kindly check again\n";
@@ -44,7 +41,6 @@ void viewTasks(const vector<Task> &tasks) {
     }
 }
 
-// Mark a task as completed
 void markTaskCompleted(vector<Task> &tasks) {
     if (tasks.empty()) {
         cout << "No tasks to mark as completed.\n";
@@ -63,7 +59,6 @@ void markTaskCompleted(vector<Task> &tasks) {
     }
 }
 
-// Remove a task
 void removeTask(vector<Task> &tasks) {
     if (tasks.empty()) {
         cout << "No tasks to remove.\n";
@@ -122,6 +117,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
